@@ -1,0 +1,669 @@
+ html,body{    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+#main{
+    overflow-x: hidden;
+    background-color: #222;
+}
+
+#page1{
+    height: 110vh;
+    width: 100vw;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #c4bcb3;
+
+}
+
+#nav{
+    min-height: 110px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1px solid #222;
+
+}
+
+#nav img{
+    height: 30px;
+    width: 20%;
+}
+
+#nav h1{
+    font-size: 30px;
+    font-weight: 100;
+    width: 40%;
+}
+
+#nav i {
+   width: 30%;
+   text-align: right;
+}
+
+#ele{
+    /* background-color: red; */
+    height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+#ele1{
+    width: 30%;
+    height: 100%;
+    /* background-color: #fff; */
+  
+
+}
+
+#ele2{
+    width: 30%;
+    height: 100%;
+    /* background-color: #fff; */
+    border-right: 1px solid #222;
+    padding: 20px 60px;
+    text-align: center;
+    border-left: 1px solid #222;
+}
+
+#ele3{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    padding-left: 20px;
+    
+}
+
+#ele1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#ele3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#image-div:hover img{
+    scale: 1.1;
+}
+
+#ele1 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#ele1 h4 span{
+    background-color: #b43b12;
+    color: #c4bcb3;
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+#ele1 p{
+    font-size: 20px;
+    font-family: Domaine Display Condensed;
+    font-weight: 100;
+    color: #2f2f2f;
+}
+
+#ele3 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#ele3 h4 span{
+    background-color: #b43b12;
+    color: #c4bcb3;
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+#ele3 p{
+    font-size: 20px;
+    font-family: Domaine Display Condensed;
+    font-weight: 100;
+    color: #2f2f2f;
+}
+
+#ele2 h2{
+    font-family: canopee;
+    font-size: 75px;
+    font-weight: 100;
+}
+
+#ele2 h3{
+    font-family: Domaine Display Condensed;
+    font-size: 50px;
+    font-weight: 100;
+    color: #2f2f2f;
+    margin: 20px 0;
+}
+
+#ele2 h6{
+    font-family: Domaine Display Condensed;
+    font-size: 20px;
+    font-weight: 100;
+    color: #2f2f2f;
+}
+
+#label{
+    font-size: 510px;
+    font-weight: 100;
+    font-family: canopee;
+    background-color: #1c1c19;
+    color: #c4bcb3;
+    line-height: 600px;
+    width: 96%;
+    margin: 0;
+    margin-left: 2%;
+    letter-spacing: -25px;
+    /* text-align: center; */
+}
+
+#page2{
+    height: 150vh;
+    width: 100%;
+    background-color: #c4bcb3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 40px;
+}
+
+#page2-left{
+    height: 100%;
+    width: 35%;
+    padding-right: 50px;
+    /* background-color: red; */
+    border-right: 1px solid #222;
+}
+
+#page2-left h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:120px;
+    font-family: canopee;
+    /* text-align: center; */
+    line-height: 170px;
+    font-weight: 100;
+}
+
+#page2-left h2 span{
+    font-size:210px;
+    font-weight: 900;
+
+   
+}
+#page2-left img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-left p{
+ font-size: 34px;
+ font-family:  Domaine Display Condensed;
+ color: #2f2f2f;
+ margin-top: 20px;
+}
+
+#page2-right{
+    height: 100%;
+    width: 70%;
+    padding: 0 60px;
+
+}
+
+#page2-right img{
+    height: 53%; 
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-right h1{
+    font-family: canopee;
+    font-size: 100px;
+    letter-spacing: -1px;
+    font-weight:100;
+}
+
+#page3{
+    position: relative;
+    padding-bottom:0px;
+    background-color: #c4bcb3;
+
+}
+#page3 h1{
+    font-size: 330px;
+    font-weight: 100;
+    letter-spacing: -10px;
+    font-family: canopee;
+    background-color: #222;
+    color: #c4bcb3;
+    margin-left: 2%;
+    padding: 0 20px;
+    line-height: 500px;
+    width: fit-content;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#page3 img{
+    height: 450px;
+    position: absolute;
+    top: 0;
+    right: 2%;
+}
+
+#page4-left{
+    background-color: #c4bcb3;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 50px;
+    padding: 15px;
+
+
+}
+
+#page4{
+    display: flex;
+    width: 100%;
+    min-height:100%;
+    background-color: #c4bcb3;
+    overflow: hidden;
+    align-items: center;
+}
+#page4-ele-left{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 3vw;
+    justify-content: center;
+}
+
+#page4-ele-left-1{
+    margin-right: 15px; 
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+#page4-ele-left-1 h2{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: Domaine Display Condensed;
+}
+
+#page4-ele-left-1 h3{
+    font-size: 35px;
+    font-family:  Domaine Display Condensed;
+    font-weight: 100;
+    line-height: -10px;
+}
+
+#page4-ele-left-1 h6 span{
+    font-size: 20px;
+    font-family:  Domaine Display Condensed;
+    font-weight: 200;
+}
+
+#page4-ele-left-1 h6{
+    font-weight: 100;
+    font-family:  Domaine Display Condensed;
+    font-size: 20px;
+}
+
+#page4-ele-left-2{
+    border-left: 1px solid #222;   
+    padding-left: 30px;
+}
+#page4-ele-left-2 h4{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: Domaine Display Condensed;
+    margin-top: 15px;
+    margin-bottom: 0px;
+
+}
+#page4-ele-left-2 p{
+    font-family:  Domaine Display Condensed;
+    width: 80%;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 8px;
+
+}
+
+#page4-ele-left-2 #image-div img{
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#page4-left #img-p4{
+    /* margin-left: 30px; */
+    width: 100%;
+    height: 100%;
+    display: contents;
+    object-fit: cover;
+    /* display: content;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    object-fit: cover; */
+    /* padding-left: 30px; */
+}
+
+/* #img-p4{
+    width: 100%;
+    height: 100%;
+} */
+
+#page4-right{
+    padding-left: 30px;
+    border-left:1px solid #222;
+    background-color: #c4bcb3;
+    width: 40%;
+    text-align: left;
+    /* padding-top: 50px; */
+    margin-top: 20px;
+    height: 100%;
+
+}
+
+#page4-right #page4-ele-right h6{
+    font-size: 5vw;
+    font-weight: 500;
+    line-height: 6vw;
+    font-family:  Domaine Display Condensed;
+    margin: 0;
+}
+
+#page4-right #page4-ele-right h6 span{
+    font-size: 9vw;
+    line-height: 10vw;
+    font-weight: 500;
+    font-weight: 500;
+}
+
+#page4-right #page4-para{
+    font-family:Editorial New,sans-serif;
+    font-size: 2vw;
+    line-height: 2.7vw;
+    text-align: left;
+    font-weight: 300;
+    line-height: 4vw;
+    width: 85%;
+}
+
+#page4-right #page4-para span{
+    font-size: 4vw;
+    background-color: #1c1c19;
+    color: #c4bcb3;
+    padding: 15px;
+    
+}
+
+#page4-right #page4-text{
+    letter-spacing: -.02em;
+    text-transform: none;
+    font-family: Editorial New,sans-serif;
+    font-weight: 300;
+    margin-top: 3vw;
+    font-size: 2.15vw;
+    line-height: 3vw;
+    width: 85%;
+}
+
+#page4-right #anda{
+    height: 180px;
+    width: 80% ;
+    border-radius: 50%;
+    background-color: #cac1b6;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border: 1px solid #222;
+   
+}
+
+#anda{
+    overflow: hidden;
+    text-align: center;
+}
+
+#anda h1{ 
+    font-size: 100px;
+    font-weight: 100;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  Editorial New,sans-serif;
+    transform: translateX(-50%); 
+    transition: all ease 0.6s;
+    overflow: hidden;
+}
+
+#anda img{ 
+    height: 60px;
+    transform: translateX(-120%);
+    transition: all ease 0.6s;
+
+}
+
+#anda:hover img{ 
+    transform: translateX(60%);
+}
+
+#anda:hover h1{
+    transform: translateX(140%);
+}
+
+
+#page5-ele{
+    background-color:#c4bcb3;
+    height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+#page5-ele1{
+    width: 30%;
+    height: 100%;
+    /* background-color: #fff; */
+  
+
+}
+
+#page5-ele2{
+    width: 30%;
+    height: 100%;
+    /* background-color: #fff; */
+    border-right: 1px solid #222;
+    padding: 20px 60px;
+    text-align: center;
+    border-left: 1px solid #222;
+}
+
+#page5-ele3{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    padding-left: 20px;
+    
+}
+
+#page5-ele1 #page5-image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#page5-ele3 #page5-image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#page5-image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#page5-image-div:hover img{
+    scale: 1.1;
+}
+
+#page5-ele1 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#page5-ele1 h4 span{
+    background-color: #b43b12;
+    color: #c4bcb3;
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+#page5-ele1 p{
+    font-size: 20px;
+    font-family: Domaine Display Condensed;
+    font-weight: 100;
+    color: #2f2f2f;
+}
+
+#page5-ele3 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#page5-ele3 h4 span{
+    background-color: #b43b12;
+    color: #c4bcb3;
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+#page5-ele3 p{
+    font-size: 20px;
+    font-family: Domaine Display Condensed;
+    font-weight: 100;
+    color: #2f2f2f;
+}
+
+#page5-ele2 h2{
+    font-family: canopee;
+    font-size: 75px;
+    font-weight: 100;
+}
+
+#page5-ele2 h3{
+    font-family: Domaine Display Condensed;
+    font-size: 50px;
+    font-weight: 100;
+    color: #2f2f2f;
+    margin: 20px 0;
+}
+
+#page5-ele2 h6{
+    font-family: Domaine Display Condensed;
+    font-size: 20px;
+    font-weight: 100;
+    color: #2f2f2f;
+}
+
+#page6{
+    height: 100px;
+    width: 100%;
+    background-color: #c4bcb3;
+    padding: 20px 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+#page6::-webkit-scrollbar{
+    display: none ;
+}
+
+#page6 h1{
+    font-size: 80px;
+    margin: 0;
+    font-family: Domaine Display Condensed;
+    font-weight: 100;
+    display: inline-block;
+    margin-right: 20px;
+    animation-name: scroller;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+
+#page6 h1 span{
+    font-family: canopee;
+    background-color: #222;
+    color: #c4bcb3;
+    padding: 0 12px;
+}
+
+@keyframes scroller {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% - 24px));
+    }
+    
+}
+
+#page6:hover h1{
+    animation-play-state:paused;
+}
