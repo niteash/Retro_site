@@ -6,6 +6,137 @@
 
 }
 
+@media only screen and (max-width: 600px){
+    #nav h1{
+        font-size: 20px !important;
+        /* width: 20% !important; */
+    }
+
+    #nav img{
+        height: 40px !important;
+        width: 30% !important;
+    }
+
+ #image-div img{
+    height: 100% !important;
+
+   }
+#ele {
+    height: 100vh !important;
+}
+
+#ele1 {
+   
+    
+}
+#ele1 #image-div{
+    height: 20% !important;
+}
+
+#ele3 #image-div{
+    height: 20% !important;
+}
+
+#ele2 h2{
+    font-size: 50px !important;
+    margin-top: 0px !important;
+}
+
+#label{
+    font-size: 100px !important;
+    letter-spacing: 0px !important;
+    
+}
+
+#page2-left h2{
+    font-size: 35px !important;
+    text-align: center !important;
+    line-height: 80px !important;
+}
+
+#page2-left h2 span{
+    font-size: 45px !important;
+}
+
+#page2-left p{
+    font-size: 25px !important;
+}
+
+#page2-right h1{
+    font-size: 60px !important;
+}
+
+#page3 h1{
+    font-size: 100px !important;
+}
+
+#page3 img{
+    position: relative !important;
+    display: block !important;
+    text-align: center !important;
+    margin-left: 140px !important;
+}
+
+
+#page4{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+#page4-ele-left-2 #image-div{
+    width: 100px !important;
+    margin-right: 250px !important;
+
+}
+
+#page4-ele-left-1 h2 {
+    font-weight: bolder !important;
+}
+
+#page4-ele-left-2 h4 {
+    font-weight: bolder !important;
+}
+
+#page4-right{
+    /* text-align: center !important; */
+    width: 55% !important;
+}
+
+#page4-right #page4-para {
+    line-height: 8vw !important;
+}
+
+#anda h1{
+    font-size: 65px !important;
+    text-align: left !important;
+    padding: 92px !important;
+}
+
+#page5-ele {
+    height: 100vh !important;
+}
+
+#page5-ele{
+    height: 102vh !important;
+}
+
+#ele3 #image-div{
+    height: 20% !important;
+}
+
+#page5-ele2 h2{
+    font-size: 50px !important;
+    margin-top: 0px !important;
+}
+#page5-ele1 #page5-image-div {
+    height: 20% !important;
+}
+
+#page5-ele3 #page5-image-div{
+    height: 20% !important;
+}
+}
+
 #main{
     overflow-x: hidden;
     background-color: #222;
@@ -49,7 +180,7 @@
 
 #ele{
     /* background-color: red; */
-    height: 430px;
+    height: 450px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -108,7 +239,7 @@
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: canopee;
+    font-family: ''Poiret One', cursive;', cursive;;
 }
 
 #ele1 h4 span{
@@ -123,7 +254,7 @@
 
 #ele1 p{
     font-size: 20px;
-    font-family: Domaine Display Condensed;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 100;
     color: #2f2f2f;
 }
@@ -132,7 +263,7 @@
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: canopee;
+    font-family: ''Poiret One', cursive;', cursive;;
 }
 
 #ele3 h4 span{
@@ -147,48 +278,49 @@
 
 #ele3 p{
     font-size: 20px;
-    font-family: Domaine Display Condensed;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 100;
     color: #2f2f2f;
 }
 
 #ele2 h2{
-    font-family: canopee;
+    font-family: ''Poiret One', cursive;', cursive;;
     font-size: 75px;
     font-weight: 100;
 }
 
 #ele2 h3{
-    font-family: Domaine Display Condensed;
-    font-size: 50px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
     font-weight: 100;
     color: #2f2f2f;
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 #ele2 h6{
-    font-family: Domaine Display Condensed;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     font-weight: 100;
     color: #2f2f2f;
 }
 
 #label{
-    font-size: 510px;
+    font-size: 300px;
     font-weight: 100;
-    font-family: canopee;
+    font-family: 'Poiret One', cursive;
     background-color: #1c1c19;
     color: #c4bcb3;
-    line-height: 600px;
-    width: 96%;
+    line-height: 350px;
+    text-align: center;
+    width: 100%;
     margin: 0;
-    margin-left: 2%;
+    /* margin-left: 2%; */
     letter-spacing: -25px;
     /* text-align: center; */
 }
 
 #page2{
-    height: 150vh;
+    height: 230vh;
     width: 100%;
     background-color: #c4bcb3;
     display: flex;
@@ -208,15 +340,15 @@
 #page2-left h2{
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size:120px;
-    font-family: canopee;
+    font-size:100px;
+    font-family: 'Poiret One', cursive;
     /* text-align: center; */
     line-height: 170px;
     font-weight: 100;
 }
 
 #page2-left h2 span{
-    font-size:210px;
+    font-size:180px;
     font-weight: 900;
 
    
@@ -229,7 +361,7 @@
 
 #page2-left p{
  font-size: 34px;
- font-family:  Domaine Display Condensed;
+ font-family:  'Rajdhani', sans-serif;
  color: #2f2f2f;
  margin-top: 20px;
 }
@@ -248,8 +380,8 @@
 }
 
 #page2-right h1{
-    font-family: canopee;
-    font-size: 100px;
+    font-family: 'Poiret One', cursive;
+    font-size: 90px;
     letter-spacing: -1px;
     font-weight:100;
 }
@@ -261,13 +393,13 @@
 
 }
 #page3 h1{
-    font-size: 330px;
-    font-weight: 100;
-    letter-spacing: -10px;
-    font-family: canopee;
+    font-size: 210px;
+    /* font-weight: 100; */
+    letter-spacing: 5px;
+    font-family: 'Poiret One', cursive;
     background-color: #222;
     color: #c4bcb3;
-    margin-left: 2%;
+    /* margin-left: 2%; */
     padding: 0 20px;
     line-height: 500px;
     width: -moz-fit-content;
@@ -281,6 +413,9 @@
     position: absolute;
     top: 0;
     right: 2%;
+    margin-left: 10px;
+    text-align: center;
+
 }
 
 #page4-left{
@@ -320,25 +455,25 @@
 #page4-ele-left-1 h2{
     font-size: 35px;
     font-weight: 100;
-    font-family: Domaine Display Condensed;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 #page4-ele-left-1 h3{
     font-size: 35px;
-    font-family:  Domaine Display Condensed;
+    font-family:  'Rajdhani', sans-serif;
     font-weight: 100;
     line-height: -10px;
 }
 
 #page4-ele-left-1 h6 span{
     font-size: 20px;
-    font-family:  Domaine Display Condensed;
+    font-family:  'Rajdhani', sans-serif;
     font-weight: 200;
 }
 
 #page4-ele-left-1 h6{
     font-weight: 100;
-    font-family:  Domaine Display Condensed;
+    font-family:  'Rajdhani', sans-serif;
     font-size: 20px;
 }
 
@@ -349,13 +484,13 @@
 #page4-ele-left-2 h4{
     font-size: 35px;
     font-weight: 100;
-    font-family: Domaine Display Condensed;
+    font-family: 'Rajdhani', sans-serif;
     margin-top: 15px;
     margin-bottom: 0px;
 
 }
 #page4-ele-left-2 p{
-    font-family:  Domaine Display Condensed;
+    font-family:  'Rajdhani', sans-serif;
     width: 80%;
     font-size: 20px;
     font-weight: lighter;
@@ -405,7 +540,7 @@
     font-size: 5vw;
     font-weight: 500;
     line-height: 6vw;
-    font-family:  Domaine Display Condensed;
+    font-family:  'Rajdhani', sans-serif;
     margin: 0;
 }
 
@@ -495,7 +630,7 @@
 
 #page5-ele{
     background-color:#c4bcb3;
-    height: 430px;
+    height: 533px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -506,6 +641,7 @@
     width: 30%;
     height: 100%;
     /* background-color: #fff; */
+    padding-right: 20px;
   
 
 }
@@ -554,7 +690,7 @@
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: canopee;
+    font-family: ''Poiret One', cursive;', cursive;;
 }
 
 #page5-ele1 h4 span{
@@ -569,7 +705,7 @@
 
 #page5-ele1 p{
     font-size: 20px;
-    font-family: Domaine Display Condensed;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 100;
     color: #2f2f2f;
 }
@@ -578,7 +714,7 @@
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: canopee;
+    font-family: ''Poiret One', cursive;', cursive;;
 }
 
 #page5-ele3 h4 span{
@@ -593,27 +729,27 @@
 
 #page5-ele3 p{
     font-size: 20px;
-    font-family: Domaine Display Condensed;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 100;
     color: #2f2f2f;
 }
 
 #page5-ele2 h2{
-    font-family: canopee;
-    font-size: 75px;
-    font-weight: 100;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    font-weight:700;
 }
 
 #page5-ele2 h3{
-    font-family: Domaine Display Condensed;
-    font-size: 50px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
     font-weight: 100;
     color: #2f2f2f;
     margin: 20px 0;
 }
 
 #page5-ele2 h6{
-    font-family: Domaine Display Condensed;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     font-weight: 100;
     color: #2f2f2f;
@@ -638,7 +774,7 @@
 #page6 h1{
     font-size: 80px;
     margin: 0;
-    font-family: Domaine Display Condensed;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 100;
     display: inline-block;
     margin-right: 20px;
@@ -649,7 +785,7 @@
 }
 
 #page6 h1 span{
-    font-family: canopee;
+    font-family: ''Poiret One', cursive;', cursive;;
     background-color: #222;
     color: #c4bcb3;
     padding: 0 12px;
