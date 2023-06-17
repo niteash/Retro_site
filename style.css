@@ -496,6 +496,156 @@
 }
 }
 
+@media only screen and (max-width: 375px){
+
+    #ele{
+        height: 60vh !important;
+    }
+    #ele1{
+        padding-right: 39px !important;
+        border-right: 1px solid #222;
+    }
+    #ele1 p{
+        font-weight: 700 !important;
+        font-size: 13px !important;
+    }
+    #ele3 p{
+        font-weight: 700 !important;
+        font-size: 13px !important;
+
+    }
+    #ele2{
+        display: none !important;
+    }
+
+    #label {
+        font-size: 65px !important;
+        height: auto !important;
+    }
+
+    #page2 {
+        height: auto !important;
+        display: flex !important;
+    flex-direction: column !important;
+    padding: 0px !important;
+    }
+    #page2-left{
+        border-right: none !important;
+        height: auto !important;
+        position: relative;
+    margin-right: 50px;
+    }
+    #page2-left h2{
+        width: max-content !important;
+        font-size: 25px !important;
+    }
+
+    #page2-left h2 span{
+        font-size: 28px !important;
+    }
+
+    #page3 h1 {
+        font-size: 58px !important;
+    }
+
+    #page2-left img {
+        height: 70% !important;
+        width: 230px !important;
+    }
+
+    #page2-left p {
+       display: none !important;
+    }
+
+    #page2-right h1 {
+        font-size: 29px !important;
+    }
+
+    #page2-right img {
+        height: 18% !important;
+    }
+
+    #page4-ele-left-1 {
+        display: none !important;
+    }
+
+    #page4-ele-left-2 {
+        border-left: none !important;
+        padding-left:0px !important;
+    }
+
+    #page4-right{
+        display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    border-left: none !important;
+    }
+
+    #anda{
+        display: none !important;
+    }
+
+    #page4-right{
+        display: inline !important;
+        width: 100% !important;
+    }
+    #page4-right #page4-para {
+        line-height: 11vw !important;
+    }
+   
+    #page4-right #page4-para {
+        font-size: 6vw !important;
+    }
+
+    #page4-right #page4-text {
+        font-size: 5.15vw !important;
+        line-height: 10vw !important;
+    }
+
+    #page4-ele-left-2 p{
+        width: 100% !important;
+    }
+
+    #page5-ele2 {
+        display: none !important;
+    }
+
+    #page5-ele1{
+     padding-right: 39px !important;
+    border-right: 1px solid #222 !important;
+    }
+
+    #page5-ele1 p{
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    }
+
+    #page5-ele3 p{
+        font-weight: 700 !important;
+        font-size: 13px !important;
+        }
+
+    #page5-ele {
+            height: 65vh !important;
+        }
+
+        #page6 h1 {
+            font-size: 40px !important;
+        }
+
+        #page5{
+            border-top: 1px solid #222 !important;
+        }
+        #page5-ele{
+            padding: 45px 60px !important;
+        }
+        #page6{
+            height: auto !important;
+        }
+}
+
+
+
 #main{
     overflow-x: hidden;
     background-color: #222;
