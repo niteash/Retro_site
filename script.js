@@ -7,19 +7,19 @@ var tl = gsap.timeline()
 
 tl.to("#main",{
     y:"100vh",
-    scale:0.6,
+    scale:1,
     duration:0
 })
 
 tl.to("#main",{
     y:"30vh",
-    duration:1,
-    delay:1
+    duration:0,
+    delay:0
 })
 
 tl.to("#main",{
     y:"0vh",
     rotate:360,
     scale:1,
-    duration:0.8
+    duration:2
 })
