@@ -697,7 +697,7 @@
 
 #page4-right #anda{
     height: 180px;
-    width: 80% ;
+    width: 75%;
     border-radius: 50%;
     background-color: #cac1b6;
     display: flex;
@@ -769,6 +769,7 @@
     padding: 20px 60px;
     text-align: center;
     border-left: 1px solid #222;
+    line-height: 4.5vw;
 }
 
 #page5-ele3{
@@ -851,7 +852,7 @@
 
 #page5-ele2 h2{
     font-family: 'Poiret One', cursive;
-    font-size: 30px;
+    font-size: 80px;
     font-weight:700;
 }
 
