@@ -25,10 +25,6 @@
     height: 100vh !important;
 }
 
-#ele1 {
-   
-    
-}
 #ele1 #image-div{
     height: 20% !important;
 }
@@ -135,6 +131,125 @@
 #page5-ele3 #page5-image-div{
     height: 20% !important;
 }
+}
+
+@media  only screen and (max-width: 768px) {
+    #ele2 h6 {
+        margin-top: 0px !important;
+    }
+
+   #ele1 #image-div {
+    height: 32% !important;
+   }
+
+   #ele3 #image-div {
+    height: 32% !important;
+   }
+
+   #ele1{
+    padding-right: 20px !important;
+   }
+   #ele1 p{
+    font-size: 18px !important;
+   }
+
+   #ele3 p{
+    font-size: 18px !important;
+   }
+
+   #ele2 h2{
+    font-size: 40px !important;
+   }
+
+   #label{
+    font-size: 140px !important;
+    letter-spacing: 3px !important;
+   }
+
+   #page2 {
+    height: 200vh !important;
+   }
+   #page2-left h2 {
+    font-size: 52px !important;
+    line-height: 100px !important;
+
+   }
+
+   #page2-left p{
+    font-size: 36px !important;
+   }
+
+   #page2-left h2 span{
+    font-size: 95px !important;
+   }
+
+   #page2-left img{
+    height: 20% !important;
+   }
+
+   #page2-right img{
+    height: 25% !important;
+   }
+
+   #page3 h1{
+    font-size: 130px !important;
+   }
+    
+   #page3{
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+   
+   #page3 img{
+    position: relative !important;
+   }
+
+   #page4{
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    align-content: space-around !important;
+    justify-content: center !important;
+    align-items: center !important;
+   }
+
+   #page4-right #anda{
+    width: 134% !important;
+   }
+
+   #anda h1{
+    font-size: 80px !important;
+    /* width: 112px !important; */
+   }
+
+   #page4-right #page4-para {
+    line-height: 6vw !important;
+   }
+
+   #page5-ele1 #page5-image-div{
+    height: 34% !important;
+   }
+
+   #page5-ele3 #page5-image-div{
+    height: 34% !important;
+   }
+
+   #page5-ele2 h2{
+    font-size: 55px !important;
+   }
+   #page5-ele2 {
+    line-height: 8vw !important;
+   }
+   #page5-ele2 h3 {
+    line-height: 5vw !important;
+   }
+   #page5-ele2 h6{
+    line-height: 4vw !important;
+   }
 }
 
 #main{
@@ -393,7 +508,7 @@
 
 }
 #page3 h1{
-    font-size: 210px;
+    font-size: 185px;
     /* font-weight: 100; */
     letter-spacing: 5px;
     font-family: 'Poiret One', cursive;
@@ -634,7 +749,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px 60px;
+    padding: 90px 60px;
 }
 
 #page5-ele1{
