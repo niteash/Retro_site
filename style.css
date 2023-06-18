@@ -196,7 +196,7 @@
  
 @media only screen and (max-width:912px){
     #page1{
-        height: 73vh !important;
+        height: auto !important;
     }
     
     #page2{
@@ -447,7 +447,27 @@
     line-height: 4vw !important;
    }
 }
+@media  only screen and (max-width: 758px) {
+    #page5-ele2 h3 {
+        font-size: 23px !important;
+    }
 
+    #page4-ele-left-2 p  {
+        font-size: 13px !important;
+    font-weight: 700 !important;
+    }
+
+    #page2-left p {
+        font-size: 27px !important;
+    }
+
+    #page2-right h1 {
+        font-size: 47px !important;
+    }
+    #ele2 h2 {
+        font-size: 39px !important;
+    }
+}
 @media only screen and (max-width: 600px){
     #nav h1{
         font-size: 20px !important;
